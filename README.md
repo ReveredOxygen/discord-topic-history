@@ -2,7 +2,7 @@
 
 ## Running
 
-Edit config.toml to have your bot's token and change settings as needed, then run `node bot.js`  
+Run `npm install`, edit config.toml to have your bot's token and change settings as needed, then run `node bot.js`  
 In order to function, the bot needs `Manage Messages` and `Send Messages` permissions. Thanks to Discord's permissions being broken, it can see all channel topics regardless of whether it has perms to see those channels.
 See [here](https://www.writebots.com/discord-bot-token/) for getting your bot's token
 
