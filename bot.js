@@ -283,5 +283,9 @@ CREATE TABLE IF NOT EXISTS topics(
         topicCommand(message)
     })
 
+    client.on('error', err => {
+        console.log(err)
+    })
+
     client.login(config.bot.token)
 })
