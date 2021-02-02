@@ -9,4 +9,4 @@ See [here](https://www.writebots.com/discord-bot-token/) for getting your bot's 
 ## Using the bot
 
 Run `!topics` (or other configured command) to get a list of previous topics for that channel. It accepts up to one channel as an argument, defaulting to the current channel.  
-Reacting to the bot's message with :notepad_spiral: will cause it to upload a JSON export of the channel topics to paste.gg and set a link as the embed's URL.
+Reacting to the bot's message with 🗒️ will cause it to upload a JSON export of the channel topics to paste.gg and set a link as the embed's URL.
