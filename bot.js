@@ -5,7 +5,6 @@ const fs = require('fs')
 const sqlite = require('sqlite3').verbose()
 const Discord = require('discord.js')
 const Pagination = require('discord-paginationembed')
-const PasteGG = require('paste.gg').PasteGG
 const https = require('https')
 
 const config = toml.parse(fs.readFileSync('config.toml'))
