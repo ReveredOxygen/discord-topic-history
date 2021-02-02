@@ -1,0 +1,13 @@
+[bot]
+token = "bot token here"
+command = "!topics"
+# If more than 5, very long topics can crash the bot
+topics_per_page = 5
+# The time before a message's navigation times out, in ms
+navigation_timeout = 60000
+# Channels not to save history for
+ignored_channels = ["651112431791243275"]
+paste_url = "paste.gg"
+
+[db]
+path = "topics.db"
